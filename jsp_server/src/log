@@ -1,0 +1,4552 @@
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=9 end time=11
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=9 end time=11
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+job:3
+machine:3
+n = 4
+n = 3
+n = 2
+n = 1
+n = 0
+chromosome = 12131232 13
+chromosome = 12132231 14
+chromosome = 12231132 11
+chromosome = 12231231 11
+chromosome = 12231312 11
+chromosome = 12231321 11
+chromosome = 12233112 11
+chromosome = 12233121 11
+chromosome = 12321231 11
+chromosome = 12323112 11
+chromosome = 12331122 14
+chromosome = 13211322 16
+chromosome = 13212231 11
+chromosome = 13221123 11
+chromosome = 13221132 11
+chromosome = 13221231 11
+chromosome = 13221312 11
+chromosome = 13221321 11
+chromosome = 13223112 11
+chromosome = 13223121 11
+chromosome = 21321312 11
+chromosome = 22131231 11
+chromosome = 22131312 11
+chromosome = 22131321 11
+chromosome = 22133112 11
+chromosome = 22133121 11
+chromosome = 22311312 11
+chromosome = 22311321 11
+chromosome = 22312131 12
+chromosome = 22313121 11
+chromosome = 22331112 11
+chromosome = 22331121 11
+chromosome = 23112132 12
+chromosome = 23121312 11
+chromosome = 23123121 11
+chromosome = 23131221 12
+chromosome = 23211231 11
+chromosome = 23211321 11
+chromosome = 31212123 11
+chromosome = 31212231 11
+chromosome = 31221132 11
+chromosome = 31221312 11
+chromosome = 31223112 11
+chromosome = 31223121 11
+chromosome = 32112231 11
+chromosome = 32113212 12
+chromosome = 32121321 11
+chromosome = 32123112 11
+chromosome = 32123121 11
+chromosome = 32231112 11
+chromosome = 32231121 11
+result = 12231132 time = 11
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 7
+job0 process0 machine0 start time=2 end time=5
+job0 process1 machine1 start time=8 end time=10
+job1 process0 machine0 start time=0 end time=2
+job1 process1 machine2 start time=2 end time=3
+job1 process2 machine1 start time=4 end time=8
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=4 end time=7
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 7
+job0 process0 machine0 start time=2 end time=5
+job0 process1 machine1 start time=8 end time=10
+job1 process0 machine0 start time=0 end time=2
+job1 process1 machine2 start time=2 end time=3
+job1 process2 machine1 start time=4 end time=8
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=4 end time=7
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 4
+machine1 work time 10
+machine2 work time 7
+job0 process0 machine0 start time=2 end time=4
+job0 process1 machine1 start time=8 end time=10
+job1 process0 machine0 start time=0 end time=2
+job1 process1 machine2 start time=2 end time=3
+job1 process2 machine1 start time=4 end time=8
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=4 end time=7
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122323 13
+chromosome = 1122332 13
+chromosome = 1123223 13
+chromosome = 1123232 13
+chromosome = 1132223 13
+chromosome = 1132232 13
+chromosome = 1132322 17
+chromosome = 1212323 13
+chromosome = 1212332 13
+chromosome = 1213223 13
+chromosome = 1213232 13
+chromosome = 1221323 13
+chromosome = 1221332 13
+chromosome = 1222313 14
+chromosome = 1223213 13
+chromosome = 1223321 13
+chromosome = 1232132 13
+chromosome = 1232213 13
+chromosome = 1232312 13
+chromosome = 2213213 13
+chromosome = 2213231 13
+chromosome = 2213321 10
+chromosome = 2231213 10
+chromosome = 2231231 10
+chromosome = 2231321 10
+chromosome = 2232131 10
+chromosome = 2233211 10
+chromosome = 2321132 10
+chromosome = 2322131 10
+chromosome = 2323112 10
+chromosome = 2323211 10
+chromosome = 3112223 13
+chromosome = 3112232 13
+chromosome = 3122132 13
+chromosome = 3122312 13
+chromosome = 3132212 13
+chromosome = 3212123 13
+chromosome = 3212132 10
+chromosome = 3212213 10
+chromosome = 3212312 13
+chromosome = 3212321 10
+chromosome = 3221132 10
+chromosome = 3221321 10
+chromosome = 3222131 10
+chromosome = 3223121 13
+chromosome = 3232112 13
+result = 2213321 time = 10
+machine0 work time 2
+machine1 work time 13
+machine2 work time 10
+job0 process0 machine1 start time=0 end time=3
+job0 process1 machine1 start time=11 end time=13
+job1 process0 machine0 start time=0 end time=2
+job1 process1 machine2 start time=2 end time=3
+job1 process2 machine1 start time=7 end time=11
+job2 process0 machine1 start time=3 end time=7
+job2 process1 machine2 start time=7 end time=10
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=9 end time=11
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=9 end time=11
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 11
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job0 process2 machine2 start time=6 end time=8
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=8 end time=11
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1132322 17
+chromosome = 1212323 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232231 12
+chromosome = 1232312 10
+chromosome = 1312232 10
+chromosome = 1321223 10
+chromosome = 1321232 10
+chromosome = 1322123 10
+chromosome = 1322132 10
+chromosome = 2123213 10
+chromosome = 2123231 10
+chromosome = 2213231 10
+chromosome = 2231231 10
+chromosome = 2232113 10
+chromosome = 2232311 10
+chromosome = 2233211 10
+chromosome = 2322311 10
+chromosome = 2323211 10
+chromosome = 3122123 10
+chromosome = 3122132 10
+chromosome = 3122312 10
+chromosome = 3212213 10
+chromosome = 3212231 10
+chromosome = 3221213 10
+chromosome = 3221231 10
+chromosome = 3222311 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+success!
+work+1
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1132232 13
+chromosome = 1132322 17
+chromosome = 1212323 13
+chromosome = 1223132 10
+chromosome = 1223312 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1233122 12
+chromosome = 1312223 10
+chromosome = 1312232 10
+chromosome = 1321232 10
+chromosome = 1322123 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 1323122 12
+chromosome = 2132231 10
+chromosome = 2213231 10
+chromosome = 2231321 10
+chromosome = 2233121 10
+chromosome = 2321132 11
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322131 10
+chromosome = 2322311 10
+chromosome = 3112232 10
+chromosome = 3121232 10
+chromosome = 3122123 10
+chromosome = 3122132 10
+chromosome = 3122312 10
+chromosome = 3212231 10
+chromosome = 3212312 11
+chromosome = 3221231 10
+chromosome = 3222131 10
+chromosome = 3222311 10
+chromosome = 3223121 10
+chromosome = 3223211 10
+result = 1223132 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+6
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+8pPµ
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+6
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+L
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+6
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122332 13
+chromosome = 1123223 13
+chromosome = 1212323 13
+chromosome = 1223132 10
+chromosome = 1223312 10
+chromosome = 1231223 10
+chromosome = 1231322 12
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1312232 10
+chromosome = 1321223 10
+chromosome = 1321232 10
+chromosome = 1322132 10
+chromosome = 2213123 11
+chromosome = 2213132 11
+chromosome = 2231231 10
+chromosome = 2232131 10
+chromosome = 2232311 10
+chromosome = 2233112 11
+chromosome = 2233121 10
+chromosome = 2312213 10
+chromosome = 2312231 10
+chromosome = 2312312 11
+chromosome = 2312321 10
+chromosome = 2313212 12
+chromosome = 2321231 10
+chromosome = 2322131 10
+chromosome = 2322311 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3112232 10
+chromosome = 3121232 10
+chromosome = 3122312 10
+chromosome = 3212231 10
+chromosome = 3221231 10
+chromosome = 3223121 10
+result = 1223132 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+6
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1231223 10
+chromosome = 2122313 14
+chromosome = 2132321 10
+chromosome = 2212133 16
+chromosome = 2213213 10
+chromosome = 2213321 10
+chromosome = 2231213 10
+chromosome = 2231321 10
+chromosome = 2232113 10
+chromosome = 2233211 10
+chromosome = 2312213 10
+chromosome = 2312231 10
+chromosome = 2312321 10
+chromosome = 2321213 10
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322113 10
+chromosome = 2322311 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3122231 12
+chromosome = 3212321 10
+chromosome = 3221321 10
+chromosome = 3222131 10
+chromosome = 3222311 10
+chromosome = 3223121 10
+chromosome = 3223211 10
+result = 1231223 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 7
+job0 process0 machine0 start time=2 end time=5
+job0 process1 machine1 start time=8 end time=10
+job1 process0 machine0 start time=0 end time=2
+job1 process1 machine2 start time=2 end time=3
+job1 process2 machine1 start time=4 end time=8
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=4 end time=7
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122323 13
+chromosome = 1122332 13
+chromosome = 1123223 13
+chromosome = 1123232 13
+chromosome = 1132223 13
+chromosome = 1212233 17
+chromosome = 1213223 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1223312 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1312223 10
+chromosome = 1312232 10
+chromosome = 1312322 12
+chromosome = 1321223 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 1332212 12
+chromosome = 2123132 11
+chromosome = 2132231 10
+chromosome = 2132321 10
+chromosome = 2213213 10
+chromosome = 2231213 10
+chromosome = 2231231 10
+chromosome = 2231321 10
+chromosome = 2232113 10
+chromosome = 2232131 10
+chromosome = 2233121 10
+chromosome = 2233211 10
+chromosome = 2312231 10
+chromosome = 2312321 10
+chromosome = 2321213 10
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322113 10
+chromosome = 2322311 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3112232 10
+chromosome = 3121223 10
+chromosome = 3122123 10
+chromosome = 3122312 10
+chromosome = 3212231 10
+chromosome = 3212321 10
+chromosome = 3221213 10
+chromosome = 3221321 10
+chromosome = 3223121 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+success!
+success!
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+success!
+work+1
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+1 1 1 2 2 0 0 0 0 0 
+3 3 3 3 1 1 2 2 2 2 
+0 0 0 0 0 2 3 3 3 0 
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1132232 13
+chromosome = 1132322 17
+chromosome = 1221323 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1231232 10
+chromosome = 1231322 12
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232321 12
+chromosome = 1312232 10
+chromosome = 1312322 12
+chromosome = 1321232 10
+chromosome = 2112332 15
+chromosome = 2123231 10
+chromosome = 2123321 10
+chromosome = 2132132 11
+chromosome = 2132321 10
+chromosome = 2213123 11
+chromosome = 2213321 10
+chromosome = 2231123 11
+chromosome = 2231231 10
+chromosome = 2231321 10
+chromosome = 2232131 10
+chromosome = 2233121 10
+chromosome = 2233211 10
+chromosome = 2312321 10
+chromosome = 2321123 11
+chromosome = 2321132 11
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2323112 11
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3121232 10
+chromosome = 3122123 10
+chromosome = 3211232 11
+chromosome = 3212123 11
+chromosome = 3212312 11
+chromosome = 3212321 10
+chromosome = 3221132 11
+chromosome = 3221231 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+success!
+work+1
+success!
+success!
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1212332 13
+chromosome = 1213232 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1223231 12
+chromosome = 1223321 12
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232213 12
+chromosome = 1233221 14
+chromosome = 1312232 10
+chromosome = 1321232 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 2123132 11
+chromosome = 2123213 10
+chromosome = 2123231 10
+chromosome = 2123321 10
+chromosome = 2132213 10
+chromosome = 2132231 10
+chromosome = 2132321 10
+chromosome = 2213231 10
+chromosome = 2213321 10
+chromosome = 2231132 11
+chromosome = 2231231 10
+chromosome = 2231321 10
+chromosome = 2232113 10
+chromosome = 2232131 10
+chromosome = 2233121 10
+chromosome = 2233211 10
+chromosome = 2312123 11
+chromosome = 2312321 10
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322113 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3121223 10
+chromosome = 3121232 10
+chromosome = 3122123 10
+chromosome = 3212123 11
+chromosome = 3212132 11
+chromosome = 3212312 11
+chromosome = 3212321 10
+chromosome = 3221132 11
+chromosome = 3221231 10
+chromosome = 3222113 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+1 1 1 2 2 0 0 0 0 0 
+3 3 3 3 1 1 2 2 2 2 
+0 0 0 0 0 2 3 3 3 0 
+success!
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122332 13
+chromosome = 1212323 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1312232 10
+chromosome = 1321223 10
+chromosome = 1321232 10
+chromosome = 1322123 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 2123213 10
+chromosome = 2123312 11
+chromosome = 2232113 10
+chromosome = 2232131 10
+chromosome = 2233121 10
+chromosome = 2233211 10
+chromosome = 2312231 10
+chromosome = 2312321 10
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322113 10
+chromosome = 2322131 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3121223 10
+chromosome = 3121232 10
+chromosome = 3122123 10
+chromosome = 3122132 10
+chromosome = 3122312 10
+chromosome = 3212213 10
+chromosome = 3212231 10
+chromosome = 3212312 11
+chromosome = 3212321 10
+chromosome = 3221231 10
+chromosome = 3221321 10
+chromosome = 3222113 10
+chromosome = 3222131 10
+chromosome = 3223121 10
+chromosome = 3223211 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122323 13
+chromosome = 1122332 13
+chromosome = 1123223 13
+chromosome = 1123232 13
+chromosome = 1132223 13
+chromosome = 1212233 17
+chromosome = 1212323 13
+chromosome = 1212332 13
+chromosome = 1213223 13
+chromosome = 1221233 17
+chromosome = 1221323 13
+chromosome = 1221332 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1231322 12
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1312232 10
+chromosome = 1321223 10
+chromosome = 1321232 10
+chromosome = 1322123 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 2123132 11
+chromosome = 2123213 10
+chromosome = 2232113 10
+chromosome = 2232131 10
+chromosome = 2233121 10
+chromosome = 2233211 10
+chromosome = 2312132 11
+chromosome = 2312231 10
+chromosome = 2312321 10
+chromosome = 2321213 10
+chromosome = 2321231 10
+chromosome = 2321321 10
+chromosome = 2322113 10
+chromosome = 2322131 10
+chromosome = 2323121 10
+chromosome = 2323211 10
+chromosome = 3112223 10
+chromosome = 3112232 10
+chromosome = 3121223 10
+chromosome = 3121232 10
+chromosome = 3122123 10
+chromosome = 3122132 10
+chromosome = 3122312 10
+chromosome = 3212123 11
+chromosome = 3212213 10
+chromosome = 3212231 10
+chromosome = 3212312 11
+chromosome = 3212321 10
+chromosome = 3221213 10
+chromosome = 3221231 10
+chromosome = 3221321 10
+chromosome = 3222113 10
+chromosome = 3222131 10
+chromosome = 3223121 10
+chromosome = 3223211 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+1 1 1 2 2 0 0 0 0 0 
+3 3 3 3 1 1 2 2 2 2 
+0 0 0 0 0 2 3 3 3 0 
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+156
+input job0 process:
+input machine and time:
+input job1 process:
+input machine and time:
+input job2 process:
+input machine and time:
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+generateVector run end
+job:3
+machine:3
+n = 4
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 3
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 2
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 1
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+n = 0
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+generateVector run end
+chromosome = 1122323 13
+chromosome = 1123223 13
+chromosome = 1212332 13
+chromosome = 1213223 13
+chromosome = 1213232 13
+chromosome = 1223123 10
+chromosome = 1223132 10
+chromosome = 1223312 10
+chromosome = 1231223 10
+chromosome = 1231232 10
+chromosome = 1232123 10
+chromosome = 1232132 10
+chromosome = 1232312 10
+chromosome = 1233122 12
+chromosome = 1312223 10
+chromosome = 1312232 10
+chromosome = 1321223 10
+chromosome = 1322123 10
+chromosome = 1322132 10
+chromosome = 1322312 10
+chromosome = 2123213 10
+chromosome = 2123231 10
+chromosome = 2131223 11
+chromosome = 2132213 10
+chromosome = 2132231 10
+chromosome = 2231213 10
+chromosome = 2231231 10
+chromosome = 2232311 10
+chromosome = 2233121 10
+chromosome = 2312213 10
+chromosome = 2321231 10
+chromosome = 2321312 11
+chromosome = 2322113 10
+chromosome = 2322311 10
+chromosome = 2323121 10
+chromosome = 3112223 10
+chromosome = 3112232 10
+chromosome = 3122123 10
+chromosome = 3122312 10
+chromosome = 3221213 10
+chromosome = 3222311 10
+result = 1223123 time = 10
+machine0 work time 5
+machine1 work time 10
+machine2 work time 9
+job0 process0 machine0 start time=0 end time=3
+job0 process1 machine1 start time=4 end time=6
+job1 process0 machine0 start time=3 end time=5
+job1 process1 machine2 start time=5 end time=6
+job1 process2 machine1 start time=6 end time=10
+job2 process0 machine1 start time=0 end time=4
+job2 process1 machine2 start time=6 end time=9
+
+156
+1 1 1 2 2 0 0 0 0 0 
+3 3 3 3 1 1 2 2 2 2 
+0 0 0 0 0 2 3 3 3 0 
+success!
+work+1
+156
+156
+156

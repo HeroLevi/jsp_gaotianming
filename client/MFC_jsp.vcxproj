@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2CEDF6FE-3F81-4713-901E-E8554DA3D003}</ProjectGuid>
+    <RootNamespace>MFC_jsp</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AddDevice.h" />
+    <ClInclude Include="AddJob.h" />
+    <ClInclude Include="AddMatter.h" />
+    <ClInclude Include="Captcha.h" />
+    <ClInclude Include="DelJob.h" />
+    <ClInclude Include="DelMac.h" />
+    <ClInclude Include="DelMatter.h" />
+    <ClInclude Include="DoneOderInfo.h" />
+    <ClInclude Include="DONEORDER.h" />
+    <ClInclude Include="EditJob.h" />
+    <ClInclude Include="GTT.h" />
+    <ClInclude Include="IKernel.h" />
+    <ClInclude Include="INet.h" />
+    <ClInclude Include="JobInfo.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="LookOrder.h" />
+    <ClInclude Include="LookResult.h" />
+    <ClInclude Include="MacInfo.h" />
+    <ClInclude Include="Matter.h" />
+    <ClInclude Include="MatterInfo.h" />
+    <ClInclude Include="MecPropety.h" />
+    <ClInclude Include="MFC_jsp.h" />
+    <ClInclude Include="MFC_jspDlg.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="OrederManger.h" />
+    <ClInclude Include="OutOrder.h" />
+    <ClInclude Include="Packdef.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SelectJob.h" />
+    <ClInclude Include="SelectMac.h" />
+    <ClInclude Include="SelectMatter.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TCPKernel.h" />
+    <ClInclude Include="TCPNet.h" />
+    <ClInclude Include="UpdateDevice.h" />
+    <ClInclude Include="UpdateJob.h" />
+    <ClInclude Include="UpdateOrder.h" />
+    <ClInclude Include="UpdatePass.h" />
+    <ClInclude Include="WaitOrder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddDevice.cpp" />
+    <ClCompile Include="AddJob.cpp" />
+    <ClCompile Include="AddMatter.cpp" />
+    <ClCompile Include="Captcha.cpp" />
+    <ClCompile Include="DelJob.cpp" />
+    <ClCompile Include="DelMac.cpp" />
+    <ClCompile Include="DelMatter.cpp" />
+    <ClCompile Include="DoneOderInfo.cpp" />
+    <ClCompile Include="DONEORDER.cpp" />
+    <ClCompile Include="EditJob.cpp" />
+    <ClCompile Include="GTT.cpp" />
+    <ClCompile Include="JobInfo.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="LookOrder.cpp" />
+    <ClCompile Include="LookResult.cpp" />
+    <ClCompile Include="MacInfo.cpp" />
+    <ClCompile Include="Matter.cpp" />
+    <ClCompile Include="MatterInfo.cpp" />
+    <ClCompile Include="MecPropety.cpp" />
+    <ClCompile Include="MFC_jsp.cpp" />
+    <ClCompile Include="MFC_jspDlg.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="OrederManger.cpp" />
+    <ClCompile Include="OutOrder.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="SelectJob.cpp" />
+    <ClCompile Include="SelectMac.cpp" />
+    <ClCompile Include="SelectMatter.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TCPKernel.cpp" />
+    <ClCompile Include="TCPNet.cpp" />
+    <ClCompile Include="UpdateDevice.cpp" />
+    <ClCompile Include="UpdateJob.cpp" />
+    <ClCompile Include="UpdateOrder.cpp" />
+    <ClCompile Include="UpdatePass.cpp" />
+    <ClCompile Include="WaitOrder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC_jsp.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="res\MFC_jsp.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Login.bmp" />
+    <Image Include="..\..\..\timg.bmp" />
+    <Image Include="..\..\1.ico" />
+    <Image Include="res\MFC_jsp.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="MFC_jsp.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

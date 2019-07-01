@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="中介者">
+      <UniqueIdentifier>{099ff908-1864-42d1-9fd0-cab9ca589307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="协议">
+      <UniqueIdentifier>{d09b45b9-05cd-44bb-97b3-b7f4659684c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{77d4e5bb-9453-4623-98ae-186579b00265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="登录">
+      <UniqueIdentifier>{13342cf6-0d0c-4978-b51c-7addaf325343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册">
+      <UniqueIdentifier>{6eab2595-65fb-479d-9dbc-20f262f833bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="修改密码">
+      <UniqueIdentifier>{d85d3587-e77c-4e24-9fa8-19f0924770a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="甘特图">
+      <UniqueIdentifier>{b3a2cd31-b2f9-4fc8-88f1-84abf38ef0c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工件编辑">
+      <UniqueIdentifier>{3603c9bc-54b0-4e12-b845-585a7ce3a7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设备编辑">
+      <UniqueIdentifier>{f0fee666-9ca5-499b-9d1a-0dbb41e3f687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="验证码">
+      <UniqueIdentifier>{127d833d-2d2f-4485-b9ac-2a71b7c3e2b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物料管理">
+      <UniqueIdentifier>{b7583480-1855-4733-9c43-522b29b3ba00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="物料编辑">
+      <UniqueIdentifier>{28a7359c-c1c2-4a83-86e7-db44869c2d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工件管理">
+      <UniqueIdentifier>{3cb3ac12-0619-4821-a142-a3c3a17cbd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="设备管理">
+      <UniqueIdentifier>{995976b8-72b4-44e7-b9f8-93b7102b18f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户订单">
+      <UniqueIdentifier>{eeddd7c9-ad7e-48ba-9c2f-b35177add797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理员订单管理">
+      <UniqueIdentifier>{68987e36-5d12-421a-ae7f-20231023ef5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理员订单编辑">
+      <UniqueIdentifier>{cb305ecd-8264-4b1f-8456-78dd6c3e13a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理员订单编辑\已处理订单">
+      <UniqueIdentifier>{0e58cbde-af11-4e3a-973e-4e52f986446f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理员订单编辑\未处理订单">
+      <UniqueIdentifier>{4fe2b08e-68df-4a3a-bb56-07b681a682ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MFC_jsp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MFC_jspDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IKernel.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPKernel.h">
+      <Filter>中介者</Filter>
+    </ClInclude>
+    <ClInclude Include="Packdef.h">
+      <Filter>协议</Filter>
+    </ClInclude>
+    <ClInclude Include="INet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPNet.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>登录</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>注册</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdatePass.h">
+      <Filter>修改密码</Filter>
+    </ClInclude>
+    <ClInclude Include="GTT.h">
+      <Filter>甘特图</Filter>
+    </ClInclude>
+    <ClInclude Include="AddJob.h">
+      <Filter>工件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateJob.h">
+      <Filter>工件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateDevice.h">
+      <Filter>设备编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="AddDevice.h">
+      <Filter>设备编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>用户订单</Filter>
+    </ClInclude>
+    <ClInclude Include="Captcha.h">
+      <Filter>验证码</Filter>
+    </ClInclude>
+    <ClInclude Include="Matter.h">
+      <Filter>物料管理</Filter>
+    </ClInclude>
+    <ClInclude Include="AddMatter.h">
+      <Filter>物料编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="DelMatter.h">
+      <Filter>物料编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMatter.h">
+      <Filter>物料编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="EditJob.h">
+      <Filter>工件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MecPropety.h">
+      <Filter>设备管理</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectMac.h">
+      <Filter>设备编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="DelJob.h">
+      <Filter>工件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectJob.h">
+      <Filter>工件编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="DelMac.h">
+      <Filter>设备编辑</Filter>
+    </ClInclude>
+    <ClInclude Include="MacInfo.h">
+      <Filter>设备管理</Filter>
+    </ClInclude>
+    <ClInclude Include="JobInfo.h">
+      <Filter>工件管理</Filter>
+    </ClInclude>
+    <ClInclude Include="MatterInfo.h">
+      <Filter>物料管理</Filter>
+    </ClInclude>
+    <ClInclude Include="OrederManger.h">
+      <Filter>管理员订单管理</Filter>
+    </ClInclude>
+    <ClInclude Include="DoneOderInfo.h">
+      <Filter>管理员订单编辑\已处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="DONEORDER.h">
+      <Filter>管理员订单编辑\已处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitOrder.h">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="LookOrder.h">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="LookResult.h">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="OutOrder.h">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClInclude>
+    <ClInclude Include="UpdateOrder.h">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MFC_jsp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MFC_jspDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPKernel.cpp">
+      <Filter>中介者</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPNet.cpp">
+      <Filter>网络</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>登录</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>注册</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdatePass.cpp">
+      <Filter>修改密码</Filter>
+    </ClCompile>
+    <ClCompile Include="GTT.cpp">
+      <Filter>甘特图</Filter>
+    </ClCompile>
+    <ClCompile Include="AddJob.cpp">
+      <Filter>工件编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateJob.cpp">
+      <Filter>工件编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateDevice.cpp">
+      <Filter>设备编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="AddDevice.cpp">
+      <Filter>设备编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>用户订单</Filter>
+    </ClCompile>
+    <ClCompile Include="Captcha.cpp">
+      <Filter>验证码</Filter>
+    </ClCompile>
+    <ClCompile Include="Matter.cpp">
+      <Filter>物料管理</Filter>
+    </ClCompile>
+    <ClCompile Include="AddMatter.cpp">
+      <Filter>物料编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="DelMatter.cpp">
+      <Filter>物料编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMatter.cpp">
+      <Filter>物料编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="EditJob.cpp">
+      <Filter>工件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MecPropety.cpp">
+      <Filter>设备管理</Filter>
+    </ClCompile>
+    <ClCompile Include="DelJob.cpp">
+      <Filter>工件编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectJob.cpp">
+      <Filter>工件编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectMac.cpp">
+      <Filter>设备编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="DelMac.cpp">
+      <Filter>设备编辑</Filter>
+    </ClCompile>
+    <ClCompile Include="MacInfo.cpp">
+      <Filter>设备管理</Filter>
+    </ClCompile>
+    <ClCompile Include="JobInfo.cpp">
+      <Filter>工件管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MatterInfo.cpp">
+      <Filter>物料管理</Filter>
+    </ClCompile>
+    <ClCompile Include="OrederManger.cpp">
+      <Filter>管理员订单管理</Filter>
+    </ClCompile>
+    <ClCompile Include="DoneOderInfo.cpp">
+      <Filter>管理员订单编辑\已处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="DONEORDER.cpp">
+      <Filter>管理员订单编辑\已处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitOrder.cpp">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="LookOrder.cpp">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="LookResult.cpp">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="OutOrder.cpp">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClCompile>
+    <ClCompile Include="UpdateOrder.cpp">
+      <Filter>管理员订单编辑\未处理订单</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MFC_jsp.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MFC_jsp.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MFC_jsp.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\Login.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\timg.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MFC_jspDlg.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMFC_jspApp" Collapsed="true">
+    <Position X="14.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAABgI=</HashCode>
+      <FileName>MFC_jsp.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMFC_jspDlg" Collapsed="true">
+    <Position X="16.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACBAAEAAIAAAAAIABAAASCAAAgAAAQAQAIIAAAQAAQ=</HashCode>
+      <FileName>MFC_jspDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IKernel" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAKAQAAAAEAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>IKernel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPKernel" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSAwQACBAKAAYAQgAFABAICAQAAEBAAEAzIFCACAgAA=</HashCode>
+      <FileName>TCPKernel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="INet" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAEAIAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>INet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TCPNet" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAACAAAIQAAAAAAAAAAAABEAAACAQAAAAAgAAAAgA=</HashCode>
+      <FileName>TCPNet.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Login" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABAAAIABAAAAIoABAAEAEgAAAQKAAAAEIQAgAAACA=</HashCode>
+      <FileName>Login.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Register" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAgAgAAIABAABQAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Register.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdatePass" Collapsed="true">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAAAgAAAAIABAABQAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>UpdatePass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GTT" Collapsed="true">
+    <Position X="16.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAKAAAAAAAAAAAAAABAgAAAAAAIAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>GTT.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddJob" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQADACAAAAABAAAIABQAIACAAgABAAAAABAAAAAAAAA=</HashCode>
+      <FileName>AddJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelJob" Collapsed="true">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAIABAAAACAAAAABAAAAAAQAAAQAAA=</HashCode>
+      <FileName>DelJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectJob" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAIAAIABAAQACAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>SelectJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateJob" Collapsed="true">
+    <Position X="9.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAAAAAAAIABQAAACAAgABAAAAAgAAAAAgAKA=</HashCode>
+      <FileName>UpdateJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddDevice" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAUAIAAAAAAAAAIABAAAACAAgABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>AddDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelMac" Collapsed="true">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAACAAAIABAAAACAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DelMac.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectMac" Collapsed="true">
+    <Position X="16.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAACAAAIABBAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SelectMac.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateDevice" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEAAIAAAAAAAAIABAgAACAAgABAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>UpdateDevice.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Captcha" Collapsed="true">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAIABAgAAAAAAAAAAAAAAAQQAAAAAA=</HashCode>
+      <FileName>Captcha.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Matter" Collapsed="true">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAQAAAAAACIABAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Matter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatterInfo" Collapsed="true">
+    <Position X="16.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgABAAAAAAAAAAAAAACAAACAAAAAA=</HashCode>
+      <FileName>MatterInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddMatter" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAACAAAAAAAAAIABAAAACAQAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>AddMatter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelMatter" Collapsed="true">
+    <Position X="9.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAAAAAAAIABIAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DelMatter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectMatter" Collapsed="true">
+    <Position X="6" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAIABAAAACAAAAAAAAAACAAAAAAAgA=</HashCode>
+      <FileName>SelectMatter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditJob" Collapsed="true">
+    <Position X="14.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAIABQgAAIAAAAAAAAAABAgAAAAAAA=</HashCode>
+      <FileName>EditJob.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="JobInfo" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAABAAAAAAACAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>JobInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MacInfo" Collapsed="true">
+    <Position X="13" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEEAAAAAAAAAAAABAAAAAAAAABACAAAQAAAAAAAAA=</HashCode>
+      <FileName>MacInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MecPropety" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIABAAAAAAAAAAAAAQAAEAAACHAAA=</HashCode>
+      <FileName>MecPropety.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order" Collapsed="true">
+    <Position X="7.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEBACAAAgAAAgAIABAgAACEAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Order.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrederManger" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAIABAAAAAABAAAAAAAAQAAAAAAABA=</HashCode>
+      <FileName>OrederManger.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DoneOderInfo" Collapsed="true">
+    <Position X="11.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAAAAABAAABAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>DoneOderInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DONEORDER" Collapsed="true">
+    <Position X="13" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAIABAAAACAAAAAAAAAAAAAAAAAIgA=</HashCode>
+      <FileName>DONEORDER.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookOrder" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIABAAAACAAAAAAAAEAEAAAAAAAgA=</HashCode>
+      <FileName>LookOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookResult" Collapsed="true">
+    <Position X="11.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAQgAAAAAAABAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>LookResult.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OutOrder" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAIABAAAACAAAAAAAAAAAABAAAAAgA=</HashCode>
+      <FileName>OutOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UpdateOrder" Collapsed="true">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQABACAAAgAAAAAIIBAAAACAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>UpdateOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WaitOrder" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAACAIABAAAAAAAAAAAAAAEAABAAAFAAA=</HashCode>
+      <FileName>WaitOrder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="ProtocolMap" Collapsed="true">
+    <Position X="14.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>TCPKernel.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="JSP" Collapsed="true">
+    <Position X="13" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEORDER_RQ" Collapsed="true">
+    <Position X="9.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEORDER_RS" Collapsed="true">
+    <Position X="11.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OUTORDER_RQ" Collapsed="true">
+    <Position X="11.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="OUTORDER_RS" Collapsed="true">
+    <Position X="13" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ORDERWAIT_RS" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ORDERDONE_RQ" Collapsed="true">
+    <Position X="6" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ORDERDONE_RS" Collapsed="true">
+    <Position X="7.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTMATTER_RQ" Collapsed="true">
+    <Position X="14.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTMATTER_RS" Collapsed="true">
+    <Position X="16.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELMATTER_RQ" Collapsed="true">
+    <Position X="14.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELMATTER_RS" Collapsed="true">
+    <Position X="16.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELJOB_RQ" Collapsed="true">
+    <Position X="7.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELJOB_RS" Collapsed="true">
+    <Position X="9.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTJOB_RQ" Collapsed="true">
+    <Position X="7.75" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTJOB_RS" Collapsed="true">
+    <Position X="9.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTMAC_RQ" Collapsed="true">
+    <Position X="11.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SELECTMAC_RS" Collapsed="true">
+    <Position X="13" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELMAC_RQ" Collapsed="true">
+    <Position X="11.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DELMAC_RS" Collapsed="true">
+    <Position X="13" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDMATTER_RQ" Collapsed="true">
+    <Position X="9.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDMATTER_RS" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DOWNORDER_RQ" Collapsed="true">
+    <Position X="6" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABACAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="DOWNORDER_RS" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BYEBYE_RQ" Collapsed="true">
+    <Position X="16.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="BYEBYE_RS" Collapsed="true">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEPASS_RQ" Collapsed="true">
+    <Position X="13" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAEAgAAAAAAACAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEPASS_RS" Collapsed="true">
+    <Position X="14.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="REGISTER_RQ" Collapsed="true">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAACAAAAgABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="REGISTER_RS" Collapsed="true">
+    <Position X="6" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GetGtt_RQ" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="GetGtt_RS" Collapsed="true">
+    <Position X="11.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEMEC_RQ" Collapsed="true">
+    <Position X="6" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UPDATEMEC_RS" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDMEC_RQ" Collapsed="true">
+    <Position X="13" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAABAgA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDMEC_RS" Collapsed="true">
+    <Position X="14.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDJOB_RQ" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAQAAQAAAIABAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="ADDJOB_RS" Collapsed="true">
+    <Position X="7.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LOGIN_RQ" Collapsed="true">
+    <Position X="14.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAEAAAAAAAAAAAAAAgABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="LOGIN_RS" Collapsed="true">
+    <Position X="16.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WORK_RQ" Collapsed="true">
+    <Position X="16.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WORK_RS" Collapsed="true">
+    <Position X="6" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="PFUN" Collapsed="true">
+    <Position X="7.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TCPKernel.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="PackType" Collapsed="true">
+    <Position X="6" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packdef.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
